@@ -1,8 +1,14 @@
 #equipe{
+    height: 730px;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
     background: #704EEA;
+}
+
+.texto{
+    margin-top: 60px;
+    margin-bottom: 90px;
 }
 
 #equipe h2{
@@ -12,9 +18,9 @@
     line-height: 4.31rem;
     color: #fff;
     text-align: center;
-    display: inline-block;
-    width: 100%;
-    margin-top: 60px;
+    
+    max-width: 959px;
+    margin: 0 auto;
 }
 
 #equipe h2 span{
@@ -29,7 +35,7 @@
 .swiper {
     max-width: 1200px;
     height: 400px;
-    margin-top: 90px;
+    
 }
 
 #primeiro{
