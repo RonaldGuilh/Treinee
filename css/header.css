@@ -12,7 +12,11 @@
     width: 200px;
 }
 
-.navgation{
+.nav{
+    position: relative;
+}
+
+.nav ul{
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
@@ -20,30 +24,22 @@
     background: #704EEA;
     padding: 15px 40px;
     border-radius: 100px;
-    position: relative;
     
 }
 
-.navgation::before{
-    content: "";
-    display: block;
-    width: 89px;
-    height: 37px;
-    background: url(../img/seleção.svg) no-repeat center;
-    position: absolute;
-    bottom: -21px;
-    left: 16.5px;
-    z-index: 1;
-
-}
-
-.navgation a{
+.nav a{
     font-family: "Montserrat";
     font-size: 1rem;
     line-height: 1.875;
     letter-spacing: 7.5%;
     font-weight: 600;
     text-decoration: none;
-    color: #ffff
+    color: #ffff;
+}
 
+.indicador{
+    position: absolute;
+    top: 44px;
+    left: 16.5px;
+    height: 37px;
 }
