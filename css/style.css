@@ -7,6 +7,7 @@
 @import 'material.css';
 @import 'plataforma.css';
 @import 'jogos.css';
+@import 'footer.css';
 
 .container{
     align-items: center;
