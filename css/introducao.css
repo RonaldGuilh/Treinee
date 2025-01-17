@@ -1,13 +1,20 @@
+#introduction{
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
 #introduction h1{
     font-family: "DM Sans", serif;
     font-size: 4rem;
     line-height: 4.8rem;
-    margin-bottom: 56px;
-    margin-top: 130px;
     font-weight: 400;
     text-align: center;
     color: #0A0430;
-    position: relative;
+    
+    max-width: 668px;
+    margin: 0 auto;
 }
 
 h1 span{
@@ -44,4 +51,51 @@ h1 span{
     line-height: 2rem;
     font-weight: 700;
     color: #fff;
+}
+
+.images{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+    margin-bottom: 56px;
+    margin-top: 130px;
+    max-width: 1322px;
+}
+
+.estrela_amarela{
+    position: absolute;
+    top: 108px;
+    left: 119px;
+}
+
+.estrela_roxa{
+    position: absolute;
+    top: 192px;
+    right: 0px;
+}
+
+.plus{
+    position: absolute;
+    left: 0px;
+    bottom: 194px;
+}
+
+.plus2{
+    position: absolute;
+    right: 132px;
+    bottom: -163px;
+}
+
+.ellipse{
+    position: absolute;
+    left: 32px;
+    bottom: -85px;
+}
+
+.ellipse2{
+    position: absolute;
+    top: 51px;
+    right: 117px;
 }
