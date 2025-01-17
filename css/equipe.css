@@ -1,0 +1,58 @@
+#equipe{
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background: #704EEA;
+}
+
+#equipe h2{
+    font-family: 'DM Sans', Serif;
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 4.31rem;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    margin-top: 60px;
+}
+
+#equipe h2 span{
+    font-family: 'DM Serif Display', Serif;
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 4.31rem;
+    font-style: italic;
+}
+
+
+.swiper {
+    max-width: 1200px;
+    height: 400px;
+    margin-top: 90px;
+}
+
+#primeiro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.swiper-slide img{
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.swiper-slide h3{
+    font-family: 'DM Sans', Serif;
+    font-size: 1.5rem;
+    line-height: 2.5;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.swiper-slide p{
+    color: #fff;
+    text-align: center;
+}

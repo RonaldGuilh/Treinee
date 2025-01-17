@@ -1,0 +1,47 @@
+#material{
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+#material h2{
+    font-family: 'DM Sans', Serif;
+    font-size: 2.25rem;
+    line-height: 3.25rem;
+    font-weight: 600;
+    margin-top: 120px;
+    margin-bottom: 60px;
+    max-width: 408px;
+}
+
+#material h2 span{
+    font-family: 'DM Serif Display', Serif;
+    font-style: italic;
+    font-size: 2.25rem;
+    line-height: 3.25rem;
+    font-weight: 400;
+    
+}
+
+
+
+.forum{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.materia{
+    max-width: 360px;
+}
+
+.materia p{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
+    color: #000;
+    padding-top: 16px;
+}

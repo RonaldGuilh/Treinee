@@ -1,0 +1,52 @@
+
+#ferramentas h2{
+    font-family: "DM Sans", serif;
+    font-size: 2.25rem;
+    font-weight: 600;
+    line-height: 3.25rem;
+    letter-spacing: 7.5%;
+    margin-bottom: 60px;
+}
+
+#ferramentas h2 span{
+    font-family: "DM Serif Display", serif;
+    font-size: 2.25rem;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 3.25rem;
+    letter-spacing: 7.5%;
+}
+
+.ferramentas-objeto{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 40px;
+    margin-bottom: 108px;
+}
+
+.objeto{
+    max-width: 360px;
+    max-height: 400px;
+    background: #6F24E9;
+    padding: 276px 86px 52px 39px;
+    border-radius: 50px;
+}
+
+.objeto h3{
+    font-family: "DM Sans", serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2rem;
+    color: #fff;
+}
+
+.objeto h3 span{
+    font-family: "DM Serif Display", serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 2rem;
+    font-style: italic;
+}

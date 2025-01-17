@@ -1,0 +1,47 @@
+#introduction h1{
+    font-family: "DM Sans", serif;
+    font-size: 4rem;
+    line-height: 4.8rem;
+    margin-bottom: 56px;
+    margin-top: 130px;
+    font-weight: 400;
+    text-align: center;
+    color: #0A0430;
+    position: relative;
+}
+
+h1 span{
+    font-family: "DM Serif Display", serif;
+    font-size: 4rem;
+    line-height: 4.8rem;
+    font-style: italic;
+    font-weight: 500;
+}
+
+#introduction p{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+
+
+.saber-mais{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    gap: 15px;
+    padding: 10px 30px;
+    margin-bottom: 120px;
+    background: #704EEA;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+}
+
+.saber-mais span{
+    font-family: "DM Sans", serif;
+    font-size: 1rem;
+    line-height: 2rem;
+    font-weight: 700;
+    color: #fff;
+}

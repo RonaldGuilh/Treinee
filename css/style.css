@@ -1,0 +1,66 @@
+@import 'reset.css';
+@import './header.css';
+@import './introducao.css';
+@import './ferramentas.css';
+@import 'equipe.css';
+@import 'artigo.css';
+@import 'material.css';
+@import 'plataforma.css';
+@import 'jogos.css';
+
+.container{
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+.color1{
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #704EEA;
+}
+
+.color2{
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #FFC62F;
+}
+
+.color3{
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #fff;
+}
+
+p{
+    font-family: "DM Sans", serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2rem;
+    letter-spacing: 7.5%;
+    color: #0A0430;
+
+}
+
+h1 h2 span{
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: italic;
+
+}
+

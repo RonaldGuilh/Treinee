@@ -1,0 +1,51 @@
+.jogos{
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1160px;
+    border-radius: 50px;
+    background: #E924AE;
+    margin-top: 120px;
+}
+
+.jogos h2{
+    font-family: 'DM Sans', serif;
+    font-size: 2.25rem;
+    line-height: 3.25rem;
+    font-weight: 600;
+    text-align: center;
+    
+    max-width: 906px;
+    margin: 0 auto;
+    color: #0A0430;
+    margin-bottom: 35px;
+}
+
+.jogos p{
+    text-align: center;
+    max-width: 684px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.jogos button{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    background: none;
+    padding: 10px 30px;
+    gap: 15px;
+    border-radius: 100px;
+    border-color: #fff;
+
+    font-family: 'DM Sans', serif;
+    font-size: 1rem;
+    line-height: 2rem;
+    font-weight: 700;
+    color: #fff;
+
+}
+
+.info{
+    padding: 120px 127px;
+}
