@@ -42,4 +42,5 @@
     top: 44px;
     left: 16.5px;
     height: 37px;
+    transition: left 1s ease-in-out;
 }
